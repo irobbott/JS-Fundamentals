@@ -1,4 +1,4 @@
-const args = [];
+const args = ['HBTN', 'HBTN cool'];
 
 if (args[0] === undefined) {
   console.log("No argument");
