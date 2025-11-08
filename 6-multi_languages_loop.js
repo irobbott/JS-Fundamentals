@@ -8,8 +8,7 @@ let i = 0;
 let output = "";
 
 while (i < languages.length) {
-  output += languages[i];
-  if (i < languages.length - 1) output += "\n"; // only add newline between lines
+  output += languages[i] + (i < languages.length - 1 ? "\n" : ""); // avoids extra newline
   i++;
 }
 
