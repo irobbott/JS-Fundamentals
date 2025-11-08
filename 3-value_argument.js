@@ -1,6 +1,6 @@
 const args = ['HBTN', 'HBTN cool'];
 
-if (args[0] === undefined) {
+if (args) {
   console.log("No argument");
 } else {
   console.log(args[0]);
