@@ -1,4 +1,4 @@
-const args = []; // You can change this to test, e.g. ['Hello']
+const args = ['HBTN', 'HBTN is cool'];
 
 if (!args[0]) {
         console.log("No argument");
