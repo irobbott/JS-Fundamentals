@@ -1,4 +1,4 @@
-const args = ['HBTN', 'HBTN is cool'];
+const args = ['HBTN', 'HBTN cool'];
 
 if (!args[0]) {
         console.log("No argument");
