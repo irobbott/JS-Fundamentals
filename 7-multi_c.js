@@ -9,5 +9,5 @@ if (isNaN(x)) {
     output += "C is fun\n";
     i++;
   }
-  console.log(output.slice(0, -1)); // Remove last newline
+  if (output) console.log(output.slice(0, -1)); // Only print if output is not empty
 }
