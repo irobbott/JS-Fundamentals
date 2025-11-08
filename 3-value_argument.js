@@ -1,7 +1,5 @@
-const args = [];
-
-if (args[0] === undefined) {
-  console.log("No argument");
+if (process.argv[2] === undefined) {
+        console.log("No argument");
 } else {
-  console.log(args[0]);
+        console.log(process.argv[2]);
 }
